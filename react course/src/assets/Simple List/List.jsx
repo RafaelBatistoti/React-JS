@@ -1,4 +1,4 @@
-import React from "react";
+import style from "./list.module.css";
 import PropTypes from "prop-types";
 
 function List(props) {
@@ -46,12 +46,12 @@ function List(props) {
  const fruitsList = props.items
 
 	const listFruits = fruitsList.map((fruitList, index) => (
-		<li key={index.id}>
+		<li key={index.id} >
 			{fruitList.name}: &nbsp; <b>{fruitList.calories}</b>
 		</li>
 	));
 
-	return <ol>{listFruits}</ol>;
+	return <ol className={style.listar}>{listFruits}</ol>;
 }
 
 List.prototype = {

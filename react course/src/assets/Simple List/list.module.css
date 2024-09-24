@@ -1,0 +1,10 @@
+.listar {
+  list-style-type: disc; /* Adiciona marcadores à lista */
+  padding-left: 20px; /* Espaçamento à esquerda para os marcadores */
+  margin: 0;
+}
+
+.listar li {
+  margin-bottom: 10px; /* Espaço entre os itens da lista */
+  font-family: Arial, Helvetica, sans-serif;
+}
