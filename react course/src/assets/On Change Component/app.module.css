@@ -1,0 +1,86 @@
+.p-comoponents {
+	  font-family: 'Arial', sans-serif; /* Define a fonte do parágrafo */
+	  font-size: 16px; /* Tamanho da fonte */
+	  line-height: 1.6; /* Espaçamento entre linhas */
+	  color: #333; /* Cor do texto */
+	  background-color: #f0f0f0; /* Cor de fundo */
+	  padding: 10px 15px; /* Espaçamento interno */
+	  border-left: 4px solid #3498db; /* Borda decorativa à esquerda */
+	  border-radius: 5px; /* Borda arredondada */
+	  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+	  text-align: justify; /* Justifica o texto */
+	  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+	}
+
+textarea {
+  width: 100%; /* Largura total do container pai */
+  height: 150px; /* Altura do textarea */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+  font-family: Arial, sans-serif; /* Fonte */
+  font-size: 16px; /* Tamanho da fonte */
+  resize: vertical; /* Permite redimensionar apenas verticalmente */
+  background-color: #f9f9f9; /* Cor de fundo */
+}
+
+.text1 {
+  font-family: Arial, sans-serif; /* Define a fonte */
+  font-size: 1rem; /* Tamanho do texto */
+  color: #333; /* Cor do texto */
+ 
+  font-weight: bold; /* Deixa o texto em negrito */
+}
+
+.text1:hover {
+  color: #007bff; /* Muda a cor ao passar o mouse */
+  cursor: pointer; /* Muda o cursor para o ícone de pointer (mãozinha) */
+}
+
+
+select {
+  width: 100%; /* Largura total do container pai */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 5px; /* Borda arredondada */
+  font-family: Arial, sans-serif; /* Fonte */
+  font-size: 16px; /* Tamanho da fonte */
+  background-color: hsl(140, 30%, 50%); /* Cor de fundo */
+  appearance: none; /* Remove o estilo padrão do navegador */
+  cursor: pointer; /* Mostra o cursor de pointer ao passar o mouse */
+}
+
+option {
+  padding: 10px; /* Espaçamento interno */
+  font-family: Arial, sans-serif; /* Fonte */
+  font-size: 16px; /* Tamanho da fonte */
+  background-color: #cdd3cb; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+}
+
+option:hover {
+  background-color: #ddd; /* Cor de fundo ao passar o mouse */
+}
+
+input{
+  width: 100%; /* Largura total do container */
+  padding: 10px; /* Espaçamento interno */
+  margin: 10px 0; /* Espaço entre outros elementos */
+  border: 2px solid #ccc; /* Borda cinza clara */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 16px; /* Tamanho do texto */
+  box-sizing: border-box; /* Inclui a borda no cálculo do tamanho total */
+  transition: border-color 0.3s ease; /* Animação suave na borda */
+}
+
+input:focus {
+  border-color: #66afe9; /* Muda a cor da borda ao focar no campo */
+  outline: none; /* Remove o contorno padrão */
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.5); /* Efeito de brilho ao focar */
+}
+
+input::placeholder {
+  color: #aaa; /* Cor do texto de placeholder */
+  font-style: italic; /* Estilo itálico para o placeholder */
+}
+

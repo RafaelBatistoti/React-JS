@@ -8,6 +8,10 @@ import UserGreeting from "./assets/UserGreeting/UserGreeting";
 import List from "./assets/Simple List/List";
 import Components from "./assets/My components/Components";
 import Counter from "./assets/Counter Project/Counter";
+import OnChageComponent from "./assets/On Change Component/onChageComponent";
+
+
+
 
 
 function App() {
@@ -34,6 +38,8 @@ function App() {
 			<List items={fruits} category={'Fruits'}/>
 			<Components/>
 			<Counter/>
+			<OnChageComponent/>
+		
 		</>
 	);
 }
