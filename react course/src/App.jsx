@@ -7,6 +7,7 @@ import Students from "./assets/Students/Students";
 import UserGreeting from "./assets/UserGreeting/UserGreeting";
 import List from "./assets/Simple List/List";
 import Components from "./assets/My components/Components";
+import Counter from "./assets/Counter Project/Counter";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
 			<UserGreeting isLoggedIn={true} username={'Rafael'}/>
 			<List items={fruits} category={'Fruits'}/>
 			<Components/>
+			<Counter/>
 		</>
 	);
 }
