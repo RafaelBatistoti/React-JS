@@ -1,6 +1,8 @@
+import styles from '../Introduction/intro.module.css';
+
 function Footer() {
 	return (
-		<footer>
+		<footer className={styles.footer}>
 			<p>&copy; {new Date().getFullYear()} Your website Name</p>
 		</footer>
 	);
