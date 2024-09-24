@@ -1,0 +1,21 @@
+.button-updated{
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.p-comoponents {
+  font-family: 'Arial', sans-serif; /* Define a fonte do parágrafo */
+  font-size: 16px; /* Tamanho da fonte */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  color: #333; /* Cor do texto */
+  background-color: #f0f0f0; /* Cor de fundo */
+  padding: 10px 15px; /* Espaçamento interno */
+  border-left: 4px solid #3498db; /* Borda decorativa à esquerda */
+  border-radius: 5px; /* Borda arredondada */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  text-align: justify; /* Justifica o texto */
+  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}

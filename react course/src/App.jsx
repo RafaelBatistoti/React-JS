@@ -6,6 +6,8 @@ import Button from "./assets/Button/Button";
 import Students from "./assets/Students/Students";
 import UserGreeting from "./assets/UserGreeting/UserGreeting";
 import List from "./assets/Simple List/List";
+import Components from "./assets/My components/Components";
+
 
 function App() {
 
@@ -29,6 +31,7 @@ function App() {
 			<Students/>
 			<UserGreeting isLoggedIn={true} username={'Rafael'}/>
 			<List items={fruits} category={'Fruits'}/>
+			<Components/>
 		</>
 	);
 }
