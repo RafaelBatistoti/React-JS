@@ -4,6 +4,7 @@ import Card from "./assets/Card/Card";
 import Food from "./assets/Food/Food";
 import Button from "./assets/Button/Button";
 import Students from "./assets/Students/Students";
+import UserGreeting from "./assets/UserGreeting/UserGreeting";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Button />
 			<Students name='Rafael' age={30} isStudent={true} />
 			<Students/>
+			<UserGreeting isLoggedIn={true} username={'Rafael'}/>
 		</>
 	);
 }
