@@ -1,0 +1,11 @@
+.students {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	padding: 10px;
+	border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+.students p {
+	margin: 0;
+}
